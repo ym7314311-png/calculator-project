@@ -1,6 +1,6 @@
 #include <iostream>
 Using namespace std ;
-Double calculate( double num1, double num2, char op){
+double calculate( double num1, double num2, char op){
     if(op == ‘+’){
         return num1 + num2;
     }

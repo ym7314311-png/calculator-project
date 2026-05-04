@@ -1,24 +1,24 @@
 #include <iostream>
 Using namespace std ;
 Double calculate( double num1, double num2, char op){
-    If(op == ‘+’){
-        Return num1 + num2;
+    if(op == ‘+’){
+        return num1 + num2;
     }
-    If(op == ‘-‘){
-        Return num1 – num2;
+    if(op == ‘-‘){
+        return num1 – num2;
     }
-    If(op == ‘*’){
-        Return num1 * num2;
+    if(op == ‘*’){
+        return num1 * num2;
     }
-    If(op == ‘/’){
-        If(num2 == 0){
+    if(op == ‘/’){
+        if(num2 == 0){
             Cout ≪ “Undefined \n”; 
-            Return 0;
+            return 0;
         }
-           Return num1 / num2;
+           return num1 / num2;
     }
     Cout ≪ “Invalid operator\n”;
-        Return 0;
+        return 0;
 }
 Int main() {
    Double n1, n2;
@@ -36,7 +36,7 @@ Cout ≪ “ Do you want to continue? (Y/N):”;
 Cin ≫ again;
 }
 Cout ≪ “Goodbye! \n”;
-    Return 0;
+    return 0;
 }
 
 
